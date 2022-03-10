@@ -47,6 +47,11 @@ img.valley {
   position: absolute;
 }
 
+.white_box.journal{
+  height: 30%;
+  width: 40%;
+}
+
 .white_box.memories {
   top: 120%;
   left: 55%;
@@ -174,7 +179,7 @@ img.valley {
 }
 
 @media only screen and (min-width: 1200px) {
-  .white_box {
+  .white_box.journal {
     top: 100%;
   }
 
@@ -269,7 +274,7 @@ img.valley {
     width: 50%;
     height: 7%;
   }
-  
+
   .button.jb {
     top: 65%;
     left: 45%;
