@@ -28,8 +28,6 @@
 img.valley {
   width: 100%;
   height: auto;
-  padding-left: 5%;
-  padding-right: 5%;
   background-color: rgb(206, 206, 206);
 }
 
@@ -42,14 +40,15 @@ img.valley {
   padding: 5%;
   width: 30%;
   height: 50%;
-  top: 70%;
   left: 8%;
   position: absolute;
 }
 
-.white_box.journal{
-  height: 30%;
-  width: 40%;
+.white_box.journal {
+  top: 70%;
+  width: 20%;
+  height: 40%;
+  position: absolute;
 }
 
 .white_box.memories {
@@ -86,6 +85,8 @@ img.valley {
   color: white;
   background-color: rgb(128, 90, 20);
   z-index: 2;
+  height: 10%;
+  width: 20%;
 }
 
 .button.jb {
@@ -94,24 +95,18 @@ img.valley {
 }
 
 .button.m {
-  top: 160%;
+  top: 162%;
   right: 35%;
-  height: 7%;
-  width: 15%;
 }
 
 .button.pl {
-  top: 250%;
+  top: 252%;
   right: 35%;
-  height: 7%;
-  width: 15%;
 }
 
 .button.pe {
-  top: 210%;
+  top: 212%;
   left: 30%;
-  height: 7%;
-  width: 15%;
 }
 
 .img_bq {
@@ -148,6 +143,10 @@ img.valley {
     top: 70%;
   }
 
+  .white_box.journal {
+    top: 100%;
+  }
+
   .white_box.memories {
     top: 170%;
   }
@@ -161,20 +160,20 @@ img.valley {
   }
 
   .button.jb {
-    top: 135%;
+    top: 145%;
     left: 27%;
   }
 
   .button.m {
-    top: 210%;
+    top: 212%;
   }
 
   .button.pe {
-    top: 290%;
+    top: 292%;
   }
 
   .button.pl {
-    top: 360%;
+    top: 345%;
   }
 }
 
@@ -188,8 +187,22 @@ img.valley {
   }
 
   .button.jb {
-    top: 145%;
-    left: 30%;
+    top: 155%;
+  }
+
+  .button.m {
+    top: 275%;
+  }
+
+  .button.pe {
+    top: 365%;
+  }
+
+  .button.pl {
+    top: 455%;
+  }
+  .white_box.memories {
+    top: 230%;
   }
 
   .white_box.people {
@@ -197,14 +210,6 @@ img.valley {
   }
 
   .white_box.places {
-    top: 400%;
-  }
-
-  .button.pe {
-    top: 360%;
-  }
-
-  .button.pl {
     top: 420%;
   }
 }
@@ -214,14 +219,26 @@ img.valley {
     top: 50%;
   }
 
-  .white_box {
-    top: 60%;
-    width: 30%;
-    height: 40%;
+  .button {
+    height: 7%;
+    width: 25%;
   }
 
   .button.jb {
-    top: 95%;
+    top: 90%;
+    left: 20%;
+  }
+
+  .button.m {
+    top: 125%;
+  }
+
+  .button.pe {
+    top: 165%;
+  }
+
+  .button.pl {
+    top: 205%;
   }
 
   .box_content {
@@ -233,24 +250,32 @@ img.valley {
     font-weight: bold;
   }
 
+  .white_box {
+    height: 30%;
+    width: 40%;
+  }
+
+  .white_box.journal {
+    top: 60%;
+    width: 25%;
+    height: 25%;
+  }
+
   .white_box.memories {
-    top: 120%;
+    top: 100%;
   }
 
   .white_box.people {
-    top: 180%;
+    top: 140%;
   }
 
   .white_box.places {
-    top: 220%;
-  }
-
-  .button.m {
-    top: 150%;
+    top: 180%;
+    height: 30%;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .subtitle {
     display: none;
   }
@@ -270,35 +295,47 @@ img.valley {
     font-size: 12px;
   }
 
-  .button{
+  .button {
     width: 50%;
     height: 7%;
   }
 
   .button.jb {
-    top: 65%;
-    left: 45%;
+    top: 60%;
   }
 
   .button.m {
-    top: 115%;
+    top: 100%;
     left: 35%;
   }
 
-  .white_box.journal{
-    top: 50%;
+  .button.pe {
+    top: 140%;
+  }
+
+  .button.pl {
+    top: 178%;
+    left: 35%;
+  }
+
+  .white_box.journal {
+    top: 43%;
+    width: 50%;
+    height: 20%;
   }
 
   .white_box.memories {
-    top: 100%;
+    top: 83%;
+    left: 45%;
   }
 
   .white_box.people {
-    top: 150%;
+    top: 123%;
   }
 
   .white_box.places {
-    top: 200%;
+    top: 163%;
+    height: 20%;
+    left: 45%;
   }
-
 }
