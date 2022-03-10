@@ -48,9 +48,21 @@ img.valley {
 }
 
 .white_box.memories {
-  top: 170%;
+  top: 120%;
   left: 55%;
   position: absolute;
+}
+
+.white_box.people {
+  top: 170%;
+  position: absolute;
+}
+
+.white_box.places {
+  top: 220%;
+  left: 55%;
+  position: absolute;
+  height: 40%;
 }
 
 .box_title {
@@ -68,6 +80,7 @@ img.valley {
   height: 40px;
   color: white;
   background-color: rgb(128, 90, 20);
+  z-index: 2;
 }
 
 .button.jb {
@@ -76,8 +89,22 @@ img.valley {
 }
 
 .button.m {
-  top: 210%;
+  top: 160%;
   right: 35%;
+  height: 7%;
+  width: 15%;
+}
+
+.button.pl {
+  top: 250%;
+  right: 35%;
+  height: 7%;
+  width: 15%;
+}
+
+.button.pe {
+  top: 210%;
+  left: 30%;
   height: 7%;
   width: 15%;
 }
@@ -85,15 +112,16 @@ img.valley {
 .img_bq {
   width: 100%;
   height: auto;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 17.5%;
+  padding-right: 2.5%;
   background-color: rgb(206, 206, 206);
 }
 
 .img_brendan {
   width: 100%;
   height: auto;
-  padding-right: 20%;
+  padding-right: 17.5%;
+  padding-left: 2.5%;
   background-color: rgb(206, 206, 206);
 }
 
@@ -107,7 +135,6 @@ img.valley {
 }
 
 @media only screen and (min-width: 1000px) {
-  /* CSS that should be displayed if width is equal to or less than 991px goes here */
   .white_box {
     top: 90%;
   }
@@ -116,17 +143,33 @@ img.valley {
     top: 70%;
   }
 
+  .white_box.memories {
+    top: 170%;
+  }
+
+  .white_box.people {
+    top: 250%;
+  }
+
+  .white_box.places {
+    top: 310%;
+  }
+
   .button.jb {
     top: 135%;
     left: 27%;
   }
 
-  .white_box.memories {
-    top: 220%;
+  .button.m {
+    top: 210%;
   }
 
-  .button.m {
-    top: 260%;
+  .button.pe {
+    top: 290%;
+  }
+
+  .button.pl {
+    top: 360%;
   }
 }
 
@@ -142,6 +185,22 @@ img.valley {
   .button.jb {
     top: 145%;
     left: 30%;
+  }
+
+  .white_box.people {
+    top: 320%;
+  }
+
+  .white_box.places {
+    top: 400%;
+  }
+
+  .button.pe {
+    top: 360%;
+  }
+
+  .button.pl {
+    top: 420%;
   }
 }
 
@@ -170,21 +229,28 @@ img.valley {
   }
 
   .white_box.memories {
-    top: 130%;
+    top: 120%;
+  }
+
+  .white_box.people {
+    top: 180%;
+  }
+
+  .white_box.places {
+    top: 220%;
   }
 
   .button.m {
-    top: 165%;
+    top: 150%;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .subtitle {
     display: none;
   }
 
   .white_box {
-    top: 50%;
     width: 50%;
     height: 20%;
     padding: 5px;
@@ -199,21 +265,35 @@ img.valley {
     font-size: 12px;
   }
 
-  .button.jb {
+  .button{
     width: 50%;
     height: 7%;
+  }
+  
+  .button.jb {
     top: 65%;
     left: 45%;
   }
 
   .button.m {
-    width: 50%;
-    height: 7%;
     top: 115%;
     left: 35%;
+  }
+
+  .white_box.journal{
+    top: 50%;
   }
 
   .white_box.memories {
     top: 100%;
   }
+
+  .white_box.people {
+    top: 150%;
+  }
+
+  .white_box.places {
+    top: 200%;
+  }
+
 }
